@@ -43,10 +43,16 @@ align-items: center;
 margin: 2rem;
 padding: 2rem;
 border-radius: 1.2rem;
+box-shadow: 0 10px 10px #ffb5a7;
 width: 30vw;
+transition: all 0.3s;
 }
 
 
 .card-img{
 width: 100%;
+}
+
+.card-item:hover{
+    background-color: #f28482;
 }
